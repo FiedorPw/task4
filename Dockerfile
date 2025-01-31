@@ -5,7 +5,6 @@ FROM maven:3.8.3-openjdk-11-slim AS build
 # Set the current working directory inside the image
 WORKDIR /app
 
-# kosmetyczna zmiana
 # Copy the source code to the container
 COPY src /app/src
 COPY pom.xml /app
